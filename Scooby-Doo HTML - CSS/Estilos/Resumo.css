@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    transition: all 2s ease;
+}
+a:link, a:visited{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+li:hover{
+    background: red;
+    width: 266px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: large;
+    margin: 5px;
+}
+header li{
+    border: 2px solid white;
+    color: blue ;
+}
+#marcia{
+    background-color: black;
+    margin: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+#caminhao{
+    float: left;
+    width: 78%;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#caminhao h2{
+    letter-spacing: -2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#caminhao h3{
+    letter-spacing: -2px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+#caminhao p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-indent: 10px;
+}
+#caminhao img{
+    float: right;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+#suellen{
+    background: black;
+    overflow: hidden;
+    padding: 0px;
+}
+#suellen h2{
+    margin-right: 10%;
+    text-align: center;
+    text-transform: initial;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px red;
+}
+#suellen ul{
+    float: right;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    display: block;
+    margin: 0;
+    margin-right: 100px;
+    padding: 0;
+    width: 306px;
+}
+#suellen li{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    padding: 20px;
+    text-align: center;
+    transition:  all .9s ease;
+}

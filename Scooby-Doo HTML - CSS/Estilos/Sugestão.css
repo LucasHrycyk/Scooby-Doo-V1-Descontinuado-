@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    overflow: hidden;
+    transition: all 2s ease;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+li:hover{
+    background: red;
+    width: 266px;
+}
+#curitiba{
+    background-color:black;
+    overflow: hidden;
+}
+#suellen h2{
+    text-transform: initial;
+    text-shadow: 1px 1px red;
+    letter-spacing: -1px;
+}
+header nav ul li{
+    display: inline-block;
+    font-size: large;
+    margin: 5px;
+    padding : 10px;
+}
+header li{
+    border: 2px solid white;
+    color: blue ;
+    transition: all 2s ease;
+}
+#doroteo{
+    float: left;
+    width: 75%;
+    background-color: black;
+    padding-bottom: 140px;
+}
+article form{
+    margin-left: 10px;
+}
+article p{
+    margin-left: 10px;
+}
+label, input{
+    display: block;
+    padding: 10px;
+}
+#suellen{
+    background: black;
+    overflow: hidden;
+    padding: 0px;
+}
+#suellen{
+    background: black;
+    overflow: hidden;
+    padding: 0px;
+}
+#suellen h2{
+    margin-left: 40px;
+    text-transform: initial;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px red;
+}
+#suellen ul{
+    float: right;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    display: block;
+    margin: 0;
+    margin-right: 150px;
+    padding: 0;
+    width: 306px;
+}
+#suellen li{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    padding: 20px;
+    text-align: center;
+    transition:  all .9s ease;
+}
+#londrina{
+    clear: both;
+    background-color: black;
+    overflow: hidden;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+}
+input[type="submit"]{
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: red;
+    color: white;
+    transition: all 1s ease;
+}

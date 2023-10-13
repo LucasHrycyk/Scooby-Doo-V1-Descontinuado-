@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff0000;
+    color: #fff;
+    transition: all 2s ease;
+}
+a:hover{
+    text-decoration: underline;
+}
+li:hover{
+    background-color: #ff0000;
+    width: 266px;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: large;
+    margin: 5px;
+}
+header li{
+    border: solid 2px #fff;
+}
+#marcia{
+    background: #000;
+    margin: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#marcia a{
+    color: #fff;
+}
+#luana{
+    float: left;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.explicacao{
+    text-indent: 10px;
+    margin-left: 5%;
+}
+.modalDialog{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(181, 9, 9, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+}
+.modalDialog:target{
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog div{
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    background-color: #fff;
+    color: #000;
+}
+.modalDialog p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.modalDialog img{
+    margin-left: 73px;
+}
+.close{
+    background-color: #ff0000;
+    color: #000;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    margin-left: 490px;
+}
+.close:hover{
+    background-color: #000;
+    color: #ff0000;
+}
+#estiloPrincipal p{
+    position: absolute;
+    opacity: 0;
+    background-color: #000;
+    font-size: large;
+}
+#estiloPrincipal p:hover{
+    opacity: 0.8;
+}
+#estiloPrincipal img{
+    position: relative;
+    margin: 3px;
+}
+.texto{
+    margin-left: 3px;
+    padding: 100px;
+}
+.texto1{
+    margin-left: 335px;
+}
+.texto2{
+    margin-left: 665px;
+}
+.texto3{
+    margin-top: 190px;
+    margin-left: 3px;
+}
+.footer-text img{
+    float: left;
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+.footer-text h3{
+    display: flex;
+    vertical-align: -400px;
+}
+#suellen{
+    overflow: hidden;
+    padding: 0px;
+}
+#suellen h2{
+    margin: 5px;
+    text-transform: initial;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px red;
+}
+#suellen ul{
+    float: right;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    display: block;
+    margin: 0;
+    margin-right: 150px;
+    padding: 0;
+    width: 306px;
+}
+#suellen li{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    padding: 20px;
+    text-align: center;
+    transition:  all .9s ease;
+}
+#suellen ul li a{
+    color: white;
+}

@@ -1,0 +1,4 @@
+tamanho das imagens para os monstros
+
+altura 197 px
+largura 350 px

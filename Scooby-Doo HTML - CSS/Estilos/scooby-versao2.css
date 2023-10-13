@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    transition: all 2s ease;
+}
+a:link, a:visited{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+li:hover{
+    background: red;
+    width: 266px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: large;
+    margin: 5px;
+}
+header li{
+    border: 2px solid white;
+    color: blue ;
+    transition: all 2s ease;
+}
+.P1{
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 5%;
+}
+article img{
+    width: 80%;
+}
+#marcia{
+    background-color: black;
+    margin: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+#luana{
+    float: left;
+    width: 70%;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#luana h2{
+    text-shadow: 1px 1px red;
+    letter-spacing: -1px;
+    font-size: 22px;
+}
+#suellen{
+    background: black;
+    position: relative;
+    padding: 0px;
+}
+#suellen h2{
+    text-transform: initial;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px red;
+}
+#suellen ul{
+    float: right;
+    width: 1%;
+    height: auto;
+    background-color: black;
+    display: block;
+    margin: 0;
+    margin-right: 150px;
+    padding: 0;
+    width: 306px;
+}
+#suellen li{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    padding: 20px;
+    text-align: center;
+    transition:  all .9s ease;
+}
+aside ul li{
+    list-style: none;
+}
+#lucas{
+    clear: both;
+}
